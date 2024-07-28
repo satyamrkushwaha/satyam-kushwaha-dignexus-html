@@ -13,7 +13,6 @@ body {
 }
 
 .carousel-item img {
-    height: 500px;
     object-fit: cover;
 }
 
@@ -144,3 +143,44 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     margin: 10px 0;
 }
+
+
+
+
+
+.header-main-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.art-gallery-email-conatiner{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.header-sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.navlinks-donate{
+gap: 20px;
+
+}
+
+.custom-prev, .custom-next{
+    top : unset !important;
+}
+.custom-prev{
+    left: unset !important;
+    right: 30px !important;
+}
+
+

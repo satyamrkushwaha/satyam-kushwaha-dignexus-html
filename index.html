@@ -7,30 +7,11 @@
     <title>Abundant Art</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
-    <script src="footer.js"></script>
+    <script src="/header.js" defer></script>
+    <script src="footer.js" defer></script>
 </head>
 
 <body>
-    <header class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="/assets/images/top-brand-logo.png" alt="Abundant Art Logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Artzine</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
-                    <li class="nav-item"><a class="nav-link btn btn-danger text-white" href="#">Donate</a></li>
-                </ul>
-            </div>
-        </div>
-    </header>
-
     <section id="hero">
         <div class="hero-section-main-container">
             <div class="flex hero-subsection-main-container">
@@ -42,7 +23,7 @@
                         <div style="width: 600px;">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <div style="width: 200px;">
+                                    <div>
                                         <img src="assets/images/heroSection/hero-sec-1.png" alt="Hero Section"
                                             class="hero-section-image1">
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -52,7 +33,7 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <div style="width: 200px;">
+                                    <div>
                                         <img src="assets/images/heroSection/hero-sec-1.png" alt="Hero Section"
                                             class="hero-section-image1">
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -62,7 +43,7 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <div style="width: 200px;">
+                                    <div>
                                         <img src="assets/images/heroSection/hero-sec-1.png" alt="Hero Section"
                                             class="hero-section-image1">
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -72,12 +53,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            <a class="carousel-control-prev custom-prev" href="#carouselExampleControls" role="button"
                                 data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                            <a class="carousel-control-next custom-next" href="#carouselExampleControls" role="button"
                                 data-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
