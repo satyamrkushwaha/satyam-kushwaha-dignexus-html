@@ -1,39 +1,31 @@
-const reviewProjects = [
+const artzineConstant = [
     {
-        imgSrc: 'review1.jpg',
-        imgAlt: 'Review 1',
-        title: 'Review 1',
-        text: 'Review of the latest exhibitions and performances.'
-    },
-    {
-        imgSrc: 'review2.jpg',
-        imgAlt: 'Review 2',
-        title: 'Review 2',
-        text: 'Insights into the contemporary art scene.'
-    },
-    {
-        imgSrc: 'review3.jpg',
-        imgAlt: 'Review 3',
-        title: 'Review 3',
-        text: 'Critical analysis of current art trends.'
-    }
-];
-
-const artzineProjects = [
-    {
-        imgSrc: 'premiere_talk.jpg',
+        imgSrc: '/assets/images/artzine/art-1.png',
         imgAlt: 'Premiere Talk',
         title: 'Premiere Talk',
         text: 'Talks with leading figures in the art world.'
     },
     {
-        imgSrc: 'features.jpg',
+        imgSrc: '/assets/images/artzine/art-2.png',
         imgAlt: 'Features',
         title: 'Features',
         text: 'Spotlight on key exhibitions and art events.'
     },
     {
-        imgSrc: 'interviews.jpg',
+        imgSrc: '/assets/images/artzine/art-3.png',
+        imgAlt: 'Interviews',
+        title: 'Interviews',
+        text: 'Conversations with artists and curators.'
+    },
+    {
+        imgSrc: '/assets/images/artzine/art-4.png',
+        imgAlt: 'Interviews',
+        title: 'Interviews',
+        text: 'Conversations with artists and curators.'
+    }
+    ,
+    {
+        imgSrc: '/assets/images/artzine/art-5.png',
         imgAlt: 'Interviews',
         title: 'Interviews',
         text: 'Conversations with artists and curators.'
@@ -41,21 +33,136 @@ const artzineProjects = [
 ];
 
 
+const reviewProjects = [
+    {
+        imgSrc: '/assets/images/reviews/review-1.png',
+        imgAlt: 'Review 1',
+        title: 'Review 1',
+        text: 'Review of the latest exhibitions and performances.'
+    },
+    {
+        imgSrc: '/assets/images/reviews/review-2.png',
+        imgAlt: 'Review 2',
+        title: 'Review 2',
+        text: 'Insights into the contemporary art scene.'
+    },
+    {
+        imgSrc: '/assets/images/reviews/review-3.png',
+        imgAlt: 'Review 3',
+        title: 'Review 3',
+        text: 'Critical analysis of current art trends.'
+    },
+    {
+        imgSrc: '/assets/images/reviews/review-4.png',
+        imgAlt: 'Review 3',
+        title: 'Review 3',
+        text: 'Critical analysis of current art trends.'
+    },
+    {
+        imgSrc: '/assets/images/reviews/review-5.png',
+        imgAlt: 'Review 3',
+        title: 'Review 3',
+        text: 'Critical analysis of current art trends.'
+    }
+];
+
+const features = [
+    {
+        imgSrc: '/assets/images/reviews/review-1.png',
+        imgAlt: 'Review 1',
+        title: 'Review 1',
+        text: 'Review of the latest exhibitions and performances.'
+    },
+    {
+        imgSrc: '/assets/images/reviews/review-2.png',
+        imgAlt: 'Review 2',
+        title: 'Review 2',
+        text: 'Insights into the contemporary art scene.'
+    },
+    {
+        imgSrc: '/assets/images/reviews/review-3.png',
+        imgAlt: 'Review 3',
+        title: 'Review 3',
+        text: 'Critical analysis of current art trends.'
+    },
+    {
+        imgSrc: '/assets/images/reviews/review-4.png',
+        imgAlt: 'Review 3',
+        title: 'Review 3',
+        text: 'Critical analysis of current art trends.'
+    },
+    {
+        imgSrc: '/assets/images/reviews/review-5.png',
+        imgAlt: 'Review 3',
+        title: 'Review 3',
+        text: 'Critical analysis of current art trends.'
+    }
+];
+
+
+const interviews = [
+    {
+        imgSrc: '/assets/images/reviews/review-1.png',
+        imgAlt: 'Review 1',
+        title: 'Review 1',
+        text: 'Review of the latest exhibitions and performances.'
+    },
+    {
+        imgSrc: '/assets/images/reviews/review-2.png',
+        imgAlt: 'Review 2',
+        title: 'Review 2',
+        text: 'Insights into the contemporary art scene.'
+    },
+    {
+        imgSrc: '/assets/images/reviews/review-3.png',
+        imgAlt: 'Review 3',
+        title: 'Review 3',
+        text: 'Critical analysis of current art trends.'
+    },
+    {
+        imgSrc: '/assets/images/reviews/review-4.png',
+        imgAlt: 'Review 3',
+        title: 'Review 3',
+        text: 'Critical analysis of current art trends.'
+    },
+    {
+        imgSrc: '/assets/images/reviews/review-5.png',
+        imgAlt: 'Review 3',
+        title: 'Review 3',
+        text: 'Critical analysis of current art trends.'
+    }
+];
+
+
+
+
 const projects = [
     {
-        imgSrc: 'project1.jpg',
+        imgSrc: '/assets/images/projects/proj-1.png',
         imgAlt: 'Project 1',
         title: 'A Meeting of Cultures',
         text: 'An inspiring dance story of Anna Pavlova and Uday Shankar.'
     },
     {
-        imgSrc: 'project2.jpg',
+        imgSrc: '/assets/images/projects/proj-2.png',
         imgAlt: 'Project 2',
         title: 'London Lift-Off Film Festival',
         text: 'Showcasing emerging filmmakers and artists.'
     },
     {
-        imgSrc: 'project3.jpg',
+        imgSrc: '/assets/images/projects/proj-3.png',
+        imgAlt: 'Project 3',
+        title: 'A Glimpse of India',
+        text: 'Exploring the diverse cultural heritage of India.'
+    },
+    {
+        imgSrc: '/assets/images/projects/proj-4.png',
+        imgAlt: 'Project 3',
+        title: 'A Glimpse of India',
+        text: 'Exploring the diverse cultural heritage of India.'
+    },
+    {
+        imgSrc: '/assets/images/projects/proj-5.png',
         imgAlt: 'Project 3',
         title: 'A Glimpse of India',
         text: 'Exploring the diverse cultural heritage of India.'
@@ -65,7 +172,7 @@ const projects = [
 document.addEventListener('DOMContentLoaded', () => {
     const artzineCardsContainer = document.getElementById('artzine-cards');
 
-    artzineProjects.forEach(project => {
+    artzineConstant.forEach(project => {
         const cardHtml = `
             <div class="col-md-4">
                 <div class="card">
@@ -114,6 +221,43 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
         projectCardsContainer.insertAdjacentHTML('beforeend', cardHtml);
+
+
+    });
+
+
+    const featuresCardsContainer = document.getElementById('features-cards');
+
+    features.forEach(project => {
+        const cardHtml = `
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="${project.imgSrc}" class="card-img-top" alt="${project.imgAlt}">
+                    <div class="card-body">
+                        <h5 class="card-title">${project.title}</h5>
+                        <p class="card-text">${project.text}</p>
+                    </div>
+                </div>
+            </div>
+        `;
+        featuresCardsContainer.insertAdjacentHTML('beforeend', cardHtml);
+    });
+
+    const interviewsCardsContainer = document.getElementById('interview-cards');
+
+    interviews.forEach(project => {
+        const cardHtml = `
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="${project.imgSrc}" class="card-img-top" alt="${project.imgAlt}">
+                    <div class="card-body">
+                        <h5 class="card-title">${project.title}</h5>
+                        <p class="card-text">${project.text}</p>
+                    </div>
+                </div>
+            </div>
+        `;
+        interviewsCardsContainer.insertAdjacentHTML('beforeend', cardHtml);
     });
 
 });
