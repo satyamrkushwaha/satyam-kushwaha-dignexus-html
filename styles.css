@@ -44,19 +44,12 @@ footer {
     font-size: 1.5rem;
 }
 
-
-
-
+/* hero section */
 
 .hero-section-main-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: url("../assets/images/heroSection/hero-section-bg.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 700px; */
   }
   
   .hero-section-image {
