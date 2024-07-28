@@ -172,17 +172,17 @@ const projects = [
 const carouselData = [
     {
         imgSrc: 'assets/images/heroSection/hero-sec-1.png',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy...',
+        description: 'Lorem Ipsumd is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy...',
         date: 'ON JANUARY 31ST, 2024'
     },
     {
         imgSrc: 'assets/images/heroSection/hero-sec-1.png',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy...',
+        description: 'Lorem Ipsum dis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy...',
         date: 'ON JANUARY 31ST, 2024'
     },
     {
         imgSrc: 'assets/images/heroSection/hero-sec-1.png',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy...',
+        description: 'Lorem Ipsum is dsimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy...',
         date: 'ON JANUARY 31ST, 2024'
     }
 ];
@@ -291,7 +291,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div>
                     <img src="${item.imgSrc}" alt="Hero Section" class="hero-section-image1">
                     <p>${item.description}</p>
-                    <hr>
+                    <hr class="hr-divider">
                     <p>${item.date}</p>
                 </div>
             </div>
