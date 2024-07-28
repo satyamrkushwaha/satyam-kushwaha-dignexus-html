@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const headerHTML = `
-    <header class="navbar navbar-expand-lg navbar-light bg-light">
+    <header class="navbar navbar-expand-lg navbar-light">
         <div class='header-main-container'>
             <a class="navbar-brand" href="#"><img src="/assets/images/top-brand-logo.png" alt="Abundant Art Logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -34,7 +34,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
                 </ul>
                 <img  src='/assets/icons/search.svg' alt="search" />
-                <a class="nav-link btn btn-danger text-white" href="#">Donate</a
+                <a class="nav-link " href="#"> <div class="button-main-container red-bg-btn m-auto">
+            <span class='btn-content'>Donate</span>
+        </div></a
             </div>
         </div>
       </div>

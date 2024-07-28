@@ -255,6 +255,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         <h5 class="card-title">${project.title}</h5>
                         <p class="card-text">${project.text}</p>
                     </div>
+                     <div class="button-main-container w-50">
+                        <span class='btn-content'>READ MORE</span>
+                    </div>
                 </div>
             </div>
         `;
