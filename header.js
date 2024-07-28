@@ -32,11 +32,10 @@ document.addEventListener("DOMContentLoaded", function () {
                     <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
-                    <li class="nav-item"><a class="nav-link btn btn-danger text-white" href="#">Donate</a></li>
                 </ul>
+                <img  src='/assets/icons/search.svg' alt="search" />
+                <a class="nav-link btn btn-danger text-white" href="#">Donate</a
             </div>
-          <Search />
-          <Button text="DONATE" leftIcon={true} variant={'red'} />
         </div>
       </div>
     </div>

@@ -169,6 +169,24 @@ const projects = [
     }
 ];
 
+const carouselData = [
+    {
+        imgSrc: 'assets/images/heroSection/hero-sec-1.png',
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy...',
+        date: 'ON JANUARY 31ST, 2024'
+    },
+    {
+        imgSrc: 'assets/images/heroSection/hero-sec-1.png',
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy...',
+        date: 'ON JANUARY 31ST, 2024'
+    },
+    {
+        imgSrc: 'assets/images/heroSection/hero-sec-1.png',
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy...',
+        date: 'ON JANUARY 31ST, 2024'
+    }
+];
+
 document.addEventListener('DOMContentLoaded', () => {
     const artzineCardsContainer = document.getElementById('artzine-cards');
 
@@ -258,6 +276,24 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
         interviewsCardsContainer.insertAdjacentHTML('beforeend', cardHtml);
+    });
+
+
+    const carouselContent = document.getElementById('carouselContent');
+    
+    carouselData.forEach((item, index) => {
+        const isActive = index === 0 ? 'active' : '';
+        const carouselItem = `
+            <div class="carousel-item ${isActive}">
+                <div>
+                    <img src="${item.imgSrc}" alt="Hero Section" class="hero-section-image1">
+                    <p>${item.description}</p>
+                    <hr>
+                    <p>${item.date}</p>
+                </div>
+            </div>
+        `;
+        carouselContent.innerHTML += carouselItem;
     });
 
 });
